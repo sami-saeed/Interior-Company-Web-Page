@@ -1,0 +1,261 @@
+header {
+    height: 250px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: nowrap;
+}
+
+.div1 {
+    display: flex;
+    justify-content: start;
+
+}
+
+.div2 {
+    display: flex;
+    justify-content: end;
+    width: 1600px;
+}
+
+.div3 {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-radius: 7%;
+    border-color: black;
+    width: 25%;
+    height: 28px;
+    margin-top: 60px;
+    margin-left: 5px;
+}
+
+#barstyle {
+    width: 400px;
+    height: 50px;
+    font-size:22px;
+}
+
+.LOGIN {
+    background-color: green;
+    text-align: center;
+    color: white;
+    height: 60px;
+    width: 150px;
+    font-size: 30px;
+}
+
+.logo:hover {
+    transform: rotate(180deg);
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    float: left;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.FrontTitle {
+
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: large;
+
+}
+
+#w-styling {
+    padding-left: 45%;
+    font-size: 25px;
+}
+
+.searchbar {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center
+}
+
+#inp-style {
+
+    width: 500px;
+    height: 70px;
+    font-size: 25px;
+    border-left: 11px solid goldenrod;
+    box-shadow: 7px 7px 20px 4px black;
+    transition-property: width;
+    transition-duration: 1s;
+    z-index: 1;
+   
+
+}
+
+#inp-style:hover {
+
+    width: 700px;
+
+}
+
+#pic {
+    padding-left:300px;
+    padding-right:0px;
+    width:70%;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+#para {
+    font-size: 40px;
+    padding-left: 45%;
+    font-style: normal;
+
+}
+
+#head {
+    padding-left: 45%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.products {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    justify-content: space-around;
+
+}
+
+.div4 {
+    border: 5px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px 5px grey;
+
+}
+
+.div4:hover {
+    transform: perspective(300px) translate3d(0, 0, 50px);
+}
+
+.prod1 {
+    border-top: 15px solid goldenrod;
+    width: 600px;
+    height:600px;
+}
+
+.para2 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.products2 {
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    justify-content: space-around;
+
+}
+
+.div10
+{   
+    
+    margin-top:100px;
+    display: flex;
+    flex-direction: row;
+    padding:80px 80px;
+  
+}
+
+.container
+{
+    margin-left:200px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.one
+{
+    
+    margin-top:50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:xx-large;
+}
+
+.color
+{
+    display:flex;
+    flex-direction: row;
+
+}
+.c1
+{ 
+    background-color: blue;
+    height:60px;
+    width:60px;
+    margin-left:20px;
+}
+.c2{
+    background-color: black;
+    height:60px;
+    width:60px;
+    margin-left:20px;
+}
+.c3{
+    background-color: red;
+    height:60px;
+    width:60px;
+    margin-left:20px;
+}
+.c4{
+    background-color: green;
+    height:60px;
+    width:60px;
+    margin-left:20px;
+}
+
+.top
+{
+    font-size: 300%;
+    margin-left:-40px;
+}
+
+#col2
+{
+     
+    margin-top:50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:xx-large;
+    color:goldenrod;
+}
+
+.two
+{
+    margin-top:50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:xx-large;
+    text-align: center;
+}
+
+footer
+{
+    background-color:  #F8F9F9;
+    margin:50px 50px;
+}
